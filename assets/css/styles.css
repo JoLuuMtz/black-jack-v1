@@ -1,0 +1,34 @@
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 30px;
+}
+
+html,
+body {
+    margin: 0 auto;
+    background-color: rgb(39, 96, 0);
+    color: white;
+
+}
+
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left:-75px
+}
+#jugador, #computadora{
+   height: 250px;
+}
+
+/*Estilos para el responsive */
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}

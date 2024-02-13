@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="/assets/cartas/10D.png">
+
+
+</head>
+
+<body>
+    <header class="titulo">
+        Black Jack
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center" id="divBtn">
+            <button id="btn-newGame" class="btn btn-danger">Nuevo juego </button>
+            <button id="btn-getCards" class="btn btn-success">Pedir carta </button>
+            <button id="btn-stop" class="btn btn-warning"> Detener </button>
+        </div>
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Jugador 1 - <small id="smallJugador">0</small></h1>
+            <div id="jugador">
+
+            </div>
+            <h1>Computadora- <small id="smallComputadora">0</small></h1>
+            <div id="computadora">
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+    <script src="/assets/js/juego.js"></script>
+
+</body>
+
+</html>
